@@ -1,14 +1,14 @@
 {
   "name": "my-electron-app",
-  "version": "1.0.0",
-  "description": "My first electron app",
+  "version": "1.0.2",
+  "description": "This is the first app I made with node-js and electron built with electron-forge",
   "main": "index.js",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
     "make": "electron-forge make"
   },
-  "author": "AddyPug",
+  "author": "AddyPug Inc",
   "license": "Apache-2.0",
   "devDependencies": {
     "@electron-forge/cli": "^6.0.0-beta.57",
