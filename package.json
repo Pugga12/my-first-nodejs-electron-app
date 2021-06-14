@@ -1,6 +1,6 @@
 {
   "name": "my-first-electron-app",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "This is the first app I made with node-js and electron built with electron-forge",
   "main": "index.js",
   "scripts": {
