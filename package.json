@@ -1,12 +1,13 @@
 {
-  "name": "my-electron-app",
-  "version": "1.0.2",
+  "name": "Electron Tutorial App",
+  "version": "1.0.4",
   "description": "This is the first app I made with node-js and electron built with electron-forge",
   "main": "index.js",
   "scripts": {
-    "start": "electron-forge start",
+    "startapp": "electron-forge start",
     "package": "electron-forge package",
-    "make": "electron-forge make"
+    "build": "electron-forge make",
+    "import": "electron-forge import"
   },
   "author": "AddyPug Inc",
   "license": "Apache-2.0",
