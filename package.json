@@ -1,10 +1,10 @@
 {
-  "name": "my-first-app",
+  "name": "my-first-electron-app",
   "version": "1.0.4",
   "description": "This is the first app I made with node-js and electron built with electron-forge",
   "main": "index.js",
   "scripts": {
-    "startapp": "electron-forge start",
+    "start": "electron-forge start",
     "package": "electron-forge package",
     "build": "electron-forge make",
     "import": "electron-forge import"
@@ -40,10 +40,6 @@
         },
         {
           "name": "@electron-forge/maker-deb",
-          "config": {}
-        },
-        {
-          "name": "@electron-forge/maker-rpm",
           "config": {}
         }
       ]
