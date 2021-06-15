@@ -1,15 +1,16 @@
 {
   "name": "my-first-electron-app",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "This is the first app I made with node-js and electron built with electron-forge",
   "main": "index.js",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
     "build": "electron-forge make",
-    "import": "electron-forge import"
+    "import": "electron-forge import",
+    "make": "electron-forge make"
   },
-  "author": "AddyPug Inc",
+  "author": "AddyPug Teknologies Inc",
   "license": "Apache-2.0",
   "devDependencies": {
     "@electron-forge/cli": "^6.0.0-beta.57",
@@ -29,7 +30,7 @@
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "my_electron_app"
+            "name": "my_first_electron_app"
           }
         },
         {
@@ -40,6 +41,10 @@
         },
         {
           "name": "@electron-forge/maker-deb",
+          "config": {}
+        },
+        {
+          "name": "@electron-forge/maker-rpm",
           "config": {}
         }
       ]
