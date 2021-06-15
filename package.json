@@ -10,7 +10,7 @@
     "import": "electron-forge import",
     "make": "electron-forge make"
   },
-  "author": "AddyPug Teknologies Inc",
+  "author": "AddyPug Teknologies Incorporated",
   "license": "Apache-2.0",
   "devDependencies": {
     "@electron-forge/cli": "^6.0.0-beta.57",
