@@ -1,0 +1,3 @@
+@echo off
+echo Installing...
+npm install && echo Importing && npm run import && echo Building... && npm run build
