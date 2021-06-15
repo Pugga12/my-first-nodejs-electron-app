@@ -1,5 +1,4 @@
 #! /bin/sh
-@echo off
 echo Build Script (win32)
 echo (C) 2021 AddyPug Teknologies Incorporated
 echo Installing...
