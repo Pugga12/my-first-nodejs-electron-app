@@ -2,7 +2,7 @@
   "name": "my-first-electron-app",
   "version": "1.0.6",
   "description": "This is the first app I made with node-js and electron built with electron-forge",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
